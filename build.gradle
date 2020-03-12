@@ -3,8 +3,8 @@ plugins {
 }
 
 group 'com.kirchnersolutions'
-version '1.0.01a'
-def build = '100101'
+version '1.0.02a'
+def build = '100102'
 
 sourceCompatibility = 1.8
 

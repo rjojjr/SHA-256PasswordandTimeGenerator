@@ -26,6 +26,7 @@ public class NetworkInfo {
                 System.out.println("IP = " + hostNameResolver(input.next()));
             }catch (UnknownHostException e){
                 System.out.println("An error has happened");
+                e.printStackTrace();
             }
         }else{
             //End session and exit to main menu
